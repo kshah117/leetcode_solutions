@@ -28,5 +28,7 @@ class Solution:
 
         min_moves = helper(0, 0)
         return min_moves
+
+
 sol = Solution()
 print(sol.findRotateSteps(ring="godding", key="gd"))

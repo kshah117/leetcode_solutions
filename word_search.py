@@ -7,7 +7,7 @@ class Solution:
         m = len(board)
         n = len(board[0])
 
-        def helper(gp, cw, covered ):
+        def helper(gp, cw, covered):
             if gp in covered:
                 print("gp covered", gp)
                 return False
@@ -58,7 +58,7 @@ class Solution:
 
         for x in sp:
             print("New start", x)
-            is_word = helper(x, '',[])
+            is_word = helper(x, "", [])
             if is_word:
                 return True
 
