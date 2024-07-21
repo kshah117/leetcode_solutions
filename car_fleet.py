@@ -4,7 +4,6 @@ from typing import List
 class Solution:
     def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:
         ds = []
-        cf = 0
         for i in range(len(position)):
             ds.append((position[i], speed[i]))
 
