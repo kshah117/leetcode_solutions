@@ -32,6 +32,8 @@ class Solution:
                     new.append(newInterval)
                     added = True
             else:
+                if added:
+                    continue
                 temp_add = []
                 temp_add.append(min(cur_start, int_start))
                 for x in range(i, N):
