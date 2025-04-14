@@ -11,4 +11,4 @@ class Solution:
                 n = n // 2
             return ret
 
-        return calculate(5, (n + 1) // 2) * calculate(4, n //  v2) % mod
+        return calculate(5, (n + 1) // 2) * calculate(4, n // 2) % mod
